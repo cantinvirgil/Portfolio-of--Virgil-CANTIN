@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photographie — Prénom Nom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <div class="site">
+
+    <nav class="nav">
+      <div style="display:flex;align-items:center;gap:1rem;width:100%;padding:0 1rem;">
+        <a href="index.html" class="nav-logo">CV</a>
+        <button class="nav-toggle" aria-label="Ouvrir le menu"><span></span></button>
+      </div>
+      <ul class="nav-links">
+        <div class="nav-blob"></div>
+        <li><a href="index.html" class="nav-link"><span class="index">01</span><span class="dot"></span><span
+              class="label">Accueil</span></a></li>
+        <li><a href="Site documentaire.html" class="nav-link"><span class="index">02</span><span
+              class="dot"></span><span class="label">Site documentaire</span></a></li>
+        <li><a href="photographie.html" class="nav-link is-active"><span class="index">03</span><span
+              class="dot"></span><span class="label">Photographie</span></a></li>
+        <li><a href="Plami.html" class="nav-link"><span class="index">04</span><span
+              class="dot"></span><span class="label">Plami</span></a></li>
+        <li><a href="projets-professionnels.html" class="nav-link"><span class="index">05</span><span
+              class="dot"></span><span class="label">Projets pro</span></a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="mailto:contact@prenomnom.fr">Email</a>
+        <a href="https://www.linkedin.com/in/virgil-cantin-906554271/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/vcpho.to/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </nav>
+
+    <main class="main">
+
+      <header class="page-header wrap">
+        <p class="eyebrow reveal">02 — Photographie</p>
+        <h1 class="reveal" style="transition-delay:.05s">Galerie photo</h1>
+        <p class="reveal" style="transition-delay:.1s">
+          À remplacer : une phrase d'intro sur ta pratique photo — style, thèmes de
+          prédilection, matériel utilisé. Clique sur une catégorie pour filtrer la galerie.
+        </p>
+      </header>
+
+      <section class="section" style="padding-top:0;">
+        <div class="wrap">
+
+          <div class="filters reveal">
+            <button class="filter-btn is-active" data-filter="all">Toutes</button>
+            <button class="filter-btn" data-filter="portrait">Portrait</button>
+            <button class="filter-btn" data-filter="paysage">Paysage</button>
+            <button class="filter-btn" data-filter="urbain">Urbain</button>
+            <button class="filter-btn" data-filter="noir-et-blanc">Noir & blanc</button>
+          </div>
+
+          <div class="gallery reveal">
+            <!-- Répète ce bloc pour chaque photo — remplace l'image (src), la catégorie (data-cat) et la légende (data-caption) -->
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_0349.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 01</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="paysage" data-caption="Paysage — Titre de la photo, lieu, année">
+              <img src="images/IMG_0351.jpg" alt="Photo paysage à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 02</span>
+              <div class="gallery-cap"><span>Paysage — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="urbain" data-caption="Urbain — Titre de la photo, lieu, année">
+              <img src="images/IMG_0615.jpg" alt="Photo urbaine à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 03</span>
+              <div class="gallery-cap"><span>Urbain — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="noir-et-blanc"
+              data-caption="Noir & blanc — Titre de la photo, lieu, année">
+              <img src="images/IMG_0589.jpg" alt="Photo noir et blanc à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 04</span>
+              <div class="gallery-cap"><span>Noir & blanc — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_0510.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 05</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="paysage" data-caption="Paysage — Titre de la photo, lieu, année">
+              <img src="images/IMG_0995.jpg" alt="Photo paysage à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 06</span>
+              <div class="gallery-cap"><span>Paysage — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="urbain" data-caption="Urbain — Titre de la photo, lieu, année">
+              <img src="images/IMG_0647.jpg" alt="Photo urbaine à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 07</span>
+              <div class="gallery-cap"><span>Urbain — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="noir-et-blanc"
+              data-caption="Noir & blanc — Titre de la photo, lieu, année">
+              <img src="images/IMG_1002.jpg" alt="Photo noir et blanc à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 08</span>
+              <div class="gallery-cap"><span>Noir & blanc — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1003.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 09</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1012.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 10</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1045.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 11</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1046.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 12</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1395.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 13</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1398.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 14</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1632.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 15</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1457.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 16</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1462.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 17</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1483.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 18</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1519.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 19</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1520.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 20</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1550.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 21</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1566.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 22</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1562.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 23</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1571.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 24</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1584.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 25</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1592.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 26</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1595.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 27</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1597.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 28</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1609.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 29</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1615.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 30</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1619.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 31</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+            <div class="gallery-item" data-cat="portrait" data-caption="Portrait — Titre de la photo, lieu, année">
+              <img src="images/IMG_1623.jpg" alt="Photo portrait à remplacer" loading="lazy">
+              <span class="placeholder-tag" style="position:absolute;bottom:.7rem;left:.7rem;">Photo 32</span>
+              <div class="gallery-cap"><span>Portrait — à remplacer</span></div>
+            </div>
+
+          </div>
+      </section>
+
+      <section class="wrap" style="padding-bottom:5rem;">
+        <div class="footer">
+          <span>© 2026 Virgil Cantin — Tous droits réservés</span>
+          <a href="index.html">← Retour à l'accueil</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <button class="lightbox-close">Fermer ✕</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Précédent">‹</button>
+    <div class="lightbox-inner">
+      <img src="" alt="">
+      <p class="lightbox-cap"></p>
+    </div>
+    <button class="lightbox-nav lightbox-next" aria-label="Suivant">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
